@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFD5FAD01DC8740700062E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5FACF1DC8740700062E84 /* AppDelegate.swift */; };
+		EFD5FAD21DC8740700062E84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5FAD11DC8740700062E84 /* ViewController.swift */; };
+		EFD5FAD51DC8740700062E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD5FAD31DC8740700062E84 /* Main.storyboard */; };
+		EFD5FAD71DC8740700062E84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD5FAD61DC8740700062E84 /* Assets.xcassets */; };
+		EFD5FADA1DC8740700062E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD5FAD81DC8740700062E84 /* LaunchScreen.storyboard */; };
+		EFD5FAE51DC8740700062E84 /* SpliceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5FAE41DC8740700062E84 /* SpliceTests.swift */; };
+		EFD5FAF01DC8740700062E84 /* SpliceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5FAEF1DC8740700062E84 /* SpliceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD5FAE11DC8740700062E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD5FAC41DC8740700062E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD5FACB1DC8740700062E84;
+			remoteInfo = Splice;
+		};
+		EFD5FAEC1DC8740700062E84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFD5FAC41DC8740700062E84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD5FACB1DC8740700062E84;
+			remoteInfo = Splice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFD5FACC1DC8740700062E84 /* Splice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD5FACF1DC8740700062E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFD5FAD11DC8740700062E84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFD5FAD41DC8740700062E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFD5FAD61DC8740700062E84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFD5FAD91DC8740700062E84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFD5FADB1DC8740700062E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD5FAE01DC8740700062E84 /* SpliceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpliceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD5FAE41DC8740700062E84 /* SpliceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpliceTests.swift; sourceTree = "<group>"; };
+		EFD5FAE61DC8740700062E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD5FAEB1DC8740700062E84 /* SpliceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpliceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD5FAEF1DC8740700062E84 /* SpliceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpliceUITests.swift; sourceTree = "<group>"; };
+		EFD5FAF11DC8740700062E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFD5FAC91DC8740700062E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5FADD1DC8740700062E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5FAE81DC8740700062E84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFD5FAC31DC8740700062E84 = {
+			isa = PBXGroup;
+			children = (
+				EFD5FACE1DC8740700062E84 /* Splice */,
+				EFD5FAE31DC8740700062E84 /* SpliceTests */,
+				EFD5FAEE1DC8740700062E84 /* SpliceUITests */,
+				EFD5FACD1DC8740700062E84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFD5FACD1DC8740700062E84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5FACC1DC8740700062E84 /* Splice.app */,
+				EFD5FAE01DC8740700062E84 /* SpliceTests.xctest */,
+				EFD5FAEB1DC8740700062E84 /* SpliceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFD5FACE1DC8740700062E84 /* Splice */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5FACF1DC8740700062E84 /* AppDelegate.swift */,
+				EFD5FAD11DC8740700062E84 /* ViewController.swift */,
+				EFD5FAD31DC8740700062E84 /* Main.storyboard */,
+				EFD5FAD61DC8740700062E84 /* Assets.xcassets */,
+				EFD5FAD81DC8740700062E84 /* LaunchScreen.storyboard */,
+				EFD5FADB1DC8740700062E84 /* Info.plist */,
+			);
+			path = Splice;
+			sourceTree = "<group>";
+		};
+		EFD5FAE31DC8740700062E84 /* SpliceTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5FAE41DC8740700062E84 /* SpliceTests.swift */,
+				EFD5FAE61DC8740700062E84 /* Info.plist */,
+			);
+			path = SpliceTests;
+			sourceTree = "<group>";
+		};
+		EFD5FAEE1DC8740700062E84 /* SpliceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD5FAEF1DC8740700062E84 /* SpliceUITests.swift */,
+				EFD5FAF11DC8740700062E84 /* Info.plist */,
+			);
+			path = SpliceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFD5FACB1DC8740700062E84 /* Splice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD5FAF41DC8740700062E84 /* Build configuration list for PBXNativeTarget "Splice" */;
+			buildPhases = (
+				EFD5FAC81DC8740700062E84 /* Sources */,
+				EFD5FAC91DC8740700062E84 /* Frameworks */,
+				EFD5FACA1DC8740700062E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Splice;
+			productName = Splice;
+			productReference = EFD5FACC1DC8740700062E84 /* Splice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD5FADF1DC8740700062E84 /* SpliceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD5FAF71DC8740700062E84 /* Build configuration list for PBXNativeTarget "SpliceTests" */;
+			buildPhases = (
+				EFD5FADC1DC8740700062E84 /* Sources */,
+				EFD5FADD1DC8740700062E84 /* Frameworks */,
+				EFD5FADE1DC8740700062E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD5FAE21DC8740700062E84 /* PBXTargetDependency */,
+			);
+			name = SpliceTests;
+			productName = SpliceTests;
+			productReference = EFD5FAE01DC8740700062E84 /* SpliceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFD5FAEA1DC8740700062E84 /* SpliceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD5FAFA1DC8740700062E84 /* Build configuration list for PBXNativeTarget "SpliceUITests" */;
+			buildPhases = (
+				EFD5FAE71DC8740700062E84 /* Sources */,
+				EFD5FAE81DC8740700062E84 /* Frameworks */,
+				EFD5FAE91DC8740700062E84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD5FAED1DC8740700062E84 /* PBXTargetDependency */,
+			);
+			name = SpliceUITests;
+			productName = SpliceUITests;
+			productReference = EFD5FAEB1DC8740700062E84 /* SpliceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFD5FAC41DC8740700062E84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Shakil Kanji";
+				TargetAttributes = {
+					EFD5FACB1DC8740700062E84 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					EFD5FADF1DC8740700062E84 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFD5FACB1DC8740700062E84;
+					};
+					EFD5FAEA1DC8740700062E84 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFD5FACB1DC8740700062E84;
+					};
+				};
+			};
+			buildConfigurationList = EFD5FAC71DC8740700062E84 /* Build configuration list for PBXProject "Splice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFD5FAC31DC8740700062E84;
+			productRefGroup = EFD5FACD1DC8740700062E84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFD5FACB1DC8740700062E84 /* Splice */,
+				EFD5FADF1DC8740700062E84 /* SpliceTests */,
+				EFD5FAEA1DC8740700062E84 /* SpliceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFD5FACA1DC8740700062E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD5FADA1DC8740700062E84 /* LaunchScreen.storyboard in Resources */,
+				EFD5FAD71DC8740700062E84 /* Assets.xcassets in Resources */,
+				EFD5FAD51DC8740700062E84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5FADE1DC8740700062E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5FAE91DC8740700062E84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFD5FAC81DC8740700062E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD5FAD21DC8740700062E84 /* ViewController.swift in Sources */,
+				EFD5FAD01DC8740700062E84 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5FADC1DC8740700062E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD5FAE51DC8740700062E84 /* SpliceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD5FAE71DC8740700062E84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD5FAF01DC8740700062E84 /* SpliceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD5FAE21DC8740700062E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD5FACB1DC8740700062E84 /* Splice */;
+			targetProxy = EFD5FAE11DC8740700062E84 /* PBXContainerItemProxy */;
+		};
+		EFD5FAED1DC8740700062E84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFD5FACB1DC8740700062E84 /* Splice */;
+			targetProxy = EFD5FAEC1DC8740700062E84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFD5FAD31DC8740700062E84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD5FAD41DC8740700062E84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFD5FAD81DC8740700062E84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFD5FAD91DC8740700062E84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFD5FAF21DC8740700062E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFD5FAF31DC8740700062E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFD5FAF51DC8740700062E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Splice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShakilCo.Splice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFD5FAF61DC8740700062E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Splice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShakilCo.Splice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFD5FAF81DC8740700062E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpliceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShakilCo.SpliceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Splice.app/Splice";
+			};
+			name = Debug;
+		};
+		EFD5FAF91DC8740700062E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpliceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShakilCo.SpliceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Splice.app/Splice";
+			};
+			name = Release;
+		};
+		EFD5FAFB1DC8740700062E84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpliceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShakilCo.SpliceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Splice;
+			};
+			name = Debug;
+		};
+		EFD5FAFC1DC8740700062E84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpliceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ShakilCo.SpliceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Splice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFD5FAC71DC8740700062E84 /* Build configuration list for PBXProject "Splice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD5FAF21DC8740700062E84 /* Debug */,
+				EFD5FAF31DC8740700062E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD5FAF41DC8740700062E84 /* Build configuration list for PBXNativeTarget "Splice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD5FAF51DC8740700062E84 /* Debug */,
+				EFD5FAF61DC8740700062E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFD5FAF71DC8740700062E84 /* Build configuration list for PBXNativeTarget "SpliceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD5FAF81DC8740700062E84 /* Debug */,
+				EFD5FAF91DC8740700062E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EFD5FAFA1DC8740700062E84 /* Build configuration list for PBXNativeTarget "SpliceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD5FAFB1DC8740700062E84 /* Debug */,
+				EFD5FAFC1DC8740700062E84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFD5FAC41DC8740700062E84 /* Project object */;
+}
