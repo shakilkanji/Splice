@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="7dy-Lb-OUP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Splice" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,113 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Tx-a0-UG4">
+                                <rect key="frame" x="139.5" y="520" width="95" height="30"/>
+                                <state key="normal" title="Open Camera"/>
+                                <connections>
+                                    <action selector="didPressOpenCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LNL-75-4xN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUK-1a-fkp">
+                                <rect key="frame" x="120" y="568" width="134" height="30"/>
+                                <state key="normal" title="Open Photo Library"/>
+                                <connections>
+                                    <action selector="didPressOpenPhotoLibrary:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xWl-z6-YQL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtn-7W-O9t">
+                                <rect key="frame" x="118" y="617" width="138" height="30"/>
+                                <state key="normal" title="Save to Camera Roll"/>
+                                <connections>
+                                    <action selector="didPressSaveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GlJ-5t-ZAG"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Tx-a0-UG4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Aq-2P-4Gl"/>
+                            <constraint firstItem="AUK-1a-fkp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IN2-xm-toh"/>
+                            <constraint firstItem="AUK-1a-fkp" firstAttribute="top" secondItem="4Tx-a0-UG4" secondAttribute="bottom" constant="18" id="b9n-Co-tD1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AUK-1a-fkp" secondAttribute="bottom" constant="69" id="ePe-aj-FPU"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="gtn-7W-O9t" secondAttribute="bottom" constant="20" id="vPP-ca-ThX"/>
+                            <constraint firstItem="gtn-7W-O9t" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zn4-2c-o9c"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="ZEA-B7-2N2"/>
+                    <connections>
+                        <segue destination="hSR-yH-l5r" kind="show" identifier="showSpliceVC" id="Ffs-tm-VVP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
+        </scene>
+        <!--Splice View Controller-->
+        <scene sceneID="54h-gr-48A">
+            <objects>
+                <viewController id="059-AY-EYQ" customClass="SpliceViewController" customModule="Splice" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9j0-Sb-cb9"/>
+                        <viewControllerLayoutGuide type="bottom" id="M3n-8x-hfN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SRw-27-aQZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lgj-2Y-ErG">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="Fdy-ah-zY7">
+                            <connections>
+                                <action selector="didPressCancel:" destination="059-AY-EYQ" id="sDw-Be-kA8"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="yzG-TO-A5S">
+                            <connections>
+                                <action selector="didPressSave:" destination="059-AY-EYQ" id="rqQ-jV-Es5"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DNs-Py-KBF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2826.4000000000001" y="136.28185907046478"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dDX-UW-Tas">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7dy-Lb-OUP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ug6-F1-CCO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0uE-tr-KT3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vkg-XB-gtg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vwv-QW-lk8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hSR-yH-l5r" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3zz-5T-aRu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="059-AY-EYQ" kind="relationship" relationship="rootViewController" id="ELk-aJ-1eK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bFg-x8-EGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1887.2" y="136.28185907046478"/>
         </scene>
     </scenes>
 </document>

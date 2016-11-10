@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF101D071DCB07A5005882E1 /* SpliceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF101D061DCB07A5005882E1 /* SpliceViewController.swift */; };
 		EFD5FAD01DC8740700062E84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5FACF1DC8740700062E84 /* AppDelegate.swift */; };
 		EFD5FAD21DC8740700062E84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD5FAD11DC8740700062E84 /* ViewController.swift */; };
 		EFD5FAD51DC8740700062E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFD5FAD31DC8740700062E84 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF101D061DCB07A5005882E1 /* SpliceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpliceViewController.swift; sourceTree = "<group>"; };
 		EFD5FACC1DC8740700062E84 /* Splice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFD5FACF1DC8740700062E84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFD5FAD11DC8740700062E84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				EFD5FAD61DC8740700062E84 /* Assets.xcassets */,
 				EFD5FAD81DC8740700062E84 /* LaunchScreen.storyboard */,
 				EFD5FADB1DC8740700062E84 /* Info.plist */,
+				EF101D061DCB07A5005882E1 /* SpliceViewController.swift */,
 			);
 			path = Splice;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					EFD5FACB1DC8740700062E84 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3L9W44DRLC;
 						ProvisioningStyle = Automatic;
 					};
 					EFD5FADF1DC8740700062E84 = {
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFD5FAD21DC8740700062E84 /* ViewController.swift in Sources */,
+				EF101D071DCB07A5005882E1 /* SpliceViewController.swift in Sources */,
 				EFD5FAD01DC8740700062E84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,7 +415,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3L9W44DRLC;
 				INFOPLIST_FILE = Splice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ShakilCo.Splice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,7 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3L9W44DRLC;
 				INFOPLIST_FILE = Splice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ShakilCo.Splice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,6 +512,7 @@
 				EFD5FAF61DC8740700062E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFD5FAF71DC8740700062E84 /* Build configuration list for PBXNativeTarget "SpliceTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +521,7 @@
 				EFD5FAF91DC8740700062E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFD5FAFA1DC8740700062E84 /* Build configuration list for PBXNativeTarget "SpliceUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +530,7 @@
 				EFD5FAFC1DC8740700062E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

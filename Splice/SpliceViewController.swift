@@ -35,11 +35,11 @@ class SpliceViewController: UIViewController {
     }
     
     @IBAction func didPressSave(_ sender: Any) {
-
+        print(sourceURL!)
         
-        let alert = UIAlertController(title: "Wow", message: "You have saved a video!", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-        self.present(alert, animated: false, completion: nil)
+//        let alert = UIAlertController(title: "Wow", message: "You have saved a video!", preferredStyle: .alert)
+//        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+//        self.present(alert, animated: false, completion: nil)
 
     }
 
