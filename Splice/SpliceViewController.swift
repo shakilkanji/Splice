@@ -8,14 +8,17 @@
 
 import UIKit
 import AVFoundation
-import AssetsLibrary
-import CoreMedia
-import MediaPlayer
+import Foundation
+import AVKit
 import MobileCoreServices
+import Photos
+
 
 class SpliceViewController: UIViewController {
     
     var sourceURL: NSURL?
+    var startTime: CMTime = CMTimeMake(0, 1)
+    var endTime: CMTime = CMTimeMake(10, 1)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,11 +38,40 @@ class SpliceViewController: UIViewController {
     }
     
     @IBAction func didPressSave(_ sender: Any) {
-        print(sourceURL!)
+        let asset = AVURLAsset(url: sourceURL as! URL)
+        let exportSession = AVAssetExportSession(asset: asset, presetName: AVAssetExportPreset640x480)
+        let exportPath: String = NSTemporaryDirectory().appending("/videos.mov")
+        let outputVideoURL: URL = NSURL.fileURL(withPath: exportPath)
         
-//        let alert = UIAlertController(title: "Wow", message: "You have saved a video!", preferredStyle: .alert)
-//        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-//        self.present(alert, animated: false, completion: nil)
+        exportSession?.outputURL = outputVideoURL
+        exportSession?.shouldOptimizeForNetworkUse = true
+        exportSession?.outputFileType = AVFileTypeQuickTimeMovie
+        
+        _ = try? FileManager().removeItem(at: outputVideoURL)
+        
+        let range = CMTimeRangeMake(startTime, endTime)
+        exportSession?.timeRange = range
+        
+        exportSession?.exportAsynchronously(completionHandler: {
+            if (exportSession?.status == .completed) {
+                PHPhotoLibrary.shared().performChanges({ 
+                    PHAssetChangeRequest.creationRequestForAssetFromVideo(atFileURL: outputVideoURL)
+                }, completionHandler: { (saved, error) in
+                    if saved {
+                        let alert = UIAlertController(title: "Wow", message: "You have saved a video!", preferredStyle: .alert)
+                        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                        self.present(alert, animated: false, completion: nil)
+                    }
+                })
+                print("Done")
+            } else if (exportSession?.status == .failed) {
+                print("failed")
+            } else if (exportSession?.status == .cancelled) {
+                print("cancelled")
+            } else {
+                print("other")
+            }
+        })
 
     }
 

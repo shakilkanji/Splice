@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B3931A5B75BCC86DCA8F9628598157F63EEFFA1D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "40E35DCA1CEB2B3E09B83F60EA9A73774B35A121" : 9223372036854775807,
+    "B3931A5B75BCC86DCA8F9628598157F63EEFFA1D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2AEC068E-20C9-4B6C-80B7-609BF4EB81F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "40E35DCA1CEB2B3E09B83F60EA9A73774B35A121" : "RangeSlider\/",
+    "B3931A5B75BCC86DCA8F9628598157F63EEFFA1D" : "Splice\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Splice",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Splice.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/warchimede\/RangeSlider.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "40E35DCA1CEB2B3E09B83F60EA9A73774B35A121"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shakilkanji\/Splice.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B3931A5B75BCC86DCA8F9628598157F63EEFFA1D"
+    }
+  ]
+}

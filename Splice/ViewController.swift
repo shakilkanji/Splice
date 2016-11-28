@@ -71,6 +71,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         }
         
         self.dismiss(animated: true, completion: nil)
+        self.performSegue(withIdentifier: "showSpliceVC", sender: self)
     }
 }
 
